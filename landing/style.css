@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+body {
+	background-color: #9c9494;
+	opacity: 1;
+	background-image: radial-gradient(circle at center center, #000000, #9c9494), repeating-radial-gradient(circle at center center, #000000, #000000, 26px, transparent 52px, transparent 26px);
+	background-blend-mode: multiply;
+}
+
+span {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 28px;
+}
+
+br.hr {
+	display: block;
+	content: "";
+	border-top: 4px solid #353535;
+	/* Set the color and style you prefer */
+	margin: 0 0 20px 0;
+	/* Adjust the margin as needed */
+}
+
+
+
+#about-me {
+	margin: 0 25% 0 25%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cards-back {
+	background-color: transparent;
+}
+
+.front-back {
+	/* background-image: url("images/lines1.png");
+	background-size: cover; */
+	padding: 6% 0 1% 0;
+}
+
+.front {
+	text-align: center;
+	color: yellow;
+	font-size: 3.5rem;
+	margin: 5rem 0 1rem 0;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.name {
+	text-align: center;
+	color: yellow;
+	font-size: 4rem;
+	margin: 0;
+	padding-bottom: 8%;
+	font-family: 'Martel Sans', sans-serif;
+}
+
+#skills {
+	/* background-image: url("images/skillsBack1.jpg");
+	image-orientation: flip;
+	background-size: cover; */
+}
+
+.skilled {
+	color: white;
+	margin: 0 0 7% 0;
+	font-family: 'Martel Sans', sans-serif;
+}
+
+.click {
+	margin-bottom: 12%;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 28px;
+	color: white;
+}
+
+.skill-img {
+	width: 40%;
+	border-radius: 50%;
+	margin: 3% auto;
+}
+
+.skill-img-last-2 {
+	width: 30%;
+	border-radius: 50%;
+	margin: 3% auto;
+}
+
+
+.profile {
+	width: 30%;
+	border-radius: 50%;
+	margin: 10% 0 8% 0;
+}
+
+.aboutmep {
+	margin: 10% 5%;
+}
+
+.social {
+	text-align: center;
+}
+
+.social-image {
+	width: 8%;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.contact-me {
+	margin: 10%;
+}
+
+@media (max-width:700px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background-color: #9c9494;
+		opacity: 1;
+		background-image: radial-gradient(circle at center center, #000000, #9c9494), repeating-radial-gradient(circle at center center, #000000, #000000, 26px, transparent 52px, transparent 26px);
+		background-blend-mode: multiply;
+	}
+
+	.name {
+		text-align: center;
+		color: yellow;
+		font-size: 3rem;
+		margin: 15% 0 7% 0;
+		padding-bottom: 8%;
+		font-family: 'Martel Sans', sans-serif;
+	}
+
+	.skilled {
+		color: white;
+		font-size: 1.5rem;
+		margin: 15% 0 7% 0;
+		font-family: 'Martel Sans', sans-serif;
+	}
+
+	.skill-img {
+		/* position: absolute; */
+		/* position: relative; 
+			width: 30%; 
+			display: block; 
+			left: 25%;
+			border-radius: 50%;
+			margin: 3%; */
+		width: 50%;
+		border-radius: 50%;
+		margin: 3% auto;
+	}
+
+	.skill-img-last-2 {
+		width: 40%;
+		border-radius: 50%;
+		margin: 3% auto;
+	}
+
+	.social-image {
+		width: 15%;
+	}
+
+	#about-me {
+		margin: 0 10% 0 10%;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+	}
+}
